@@ -9,7 +9,3 @@ addEventListener(`DOMContentLoaded`, () => {
 
     }
 })
-
-document.addEventListener('DOMContentLoaded', function () {
-    headerScroll()
-})

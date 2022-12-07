@@ -1,13 +1,10 @@
-export function headerScroll () {
-    const header = document.getElementById('header')
-  
-    if (header) {
-      window.addEventListener('scroll', function () {
-        if (window.scrollY >= 50) {
-          header.classList.add('scroll-header')
-        } else {
-          header.classList.remove('scroll-header')
-        }
-      })
+
+const nav = document.querySelector("nav")
+
+window.addEventListener( "scroll", () =>{
+    if(scrollY >= 50){
+        nav.classList.add("scroll-bg")
+    }else{
+        nav.classList.remove("scroll-bg")
     }
-  }
+} )
