@@ -145,7 +145,6 @@ label {
 
 @media (min-width:600px) {
   header {
-    background-color: var(--container-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -154,7 +153,7 @@ label {
     display: flex;
     justify-content: space-around;
     transition: .7s;
-    padding: 30px 20px;
+    
   }
 
   .menu_items {
