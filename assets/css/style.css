@@ -643,33 +643,9 @@ label {
   .item-info {
     font-size: 1rem;
   }
-  .btn_menu{
-    display:none;
-  }
-
   .nav_iconos{
-    margin-right: 50px;
+    margin-right: 10px;
   }
-
-
-/* .contenedor-items {
-    display: flex;
-    align-items: center;
-  }*/
-
-  .menu_items {
-    position: relative;
-    flex-direction: row;
-    width: 100px;
-    height: 60px;
-    right: 0;
-    width: 100vw;
-    height: 75px;
-    text-align: center;
-    transition: 2s;
-    gap: 1rem;
-  }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -677,10 +653,6 @@ label {
   body{
     display: flex;
     justify-content: center;
-  }
-
-  .btn_menu{
-    display:none;
   }
 
   .nav_iconos{
