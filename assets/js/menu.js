@@ -6,6 +6,20 @@ addEventListener(`DOMContentLoaded`, () => {
             const menu_items = document.querySelector(`.menu_items`)
             menu_items.classList.toggle(`show`)
         })
+    }
 
+    document.getElementById("boton-noche").onclick = function change (){
+        const body = document.body;
+        body.classList.toggle(`darkTheme`)
     }
 })
+
+
+
+
+
+ 
+   
+
+
+

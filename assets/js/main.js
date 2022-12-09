@@ -29,9 +29,7 @@ const items = [
   for(let i in items){
     if(!id.includes(items[i].name)){
       let quantity = items.filter((itemActual)=> itemActual.name === items[i].name);
-      console.log(quantity);
       id.push({id: items[i].id, name: items[i].name, quantity: quantity.length});
-      console.log(id);
     }
   }
 
