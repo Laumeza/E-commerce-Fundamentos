@@ -58,7 +58,7 @@ body {
 /*--------HEADER-NAV-------*/
 
 header{
-  position: absolute;
+  position: static;
   background-color: transparent;
   z-index: 20;
 }
@@ -670,7 +670,16 @@ label {
 
   body{
     display: flex;
-    justify-content: center;
+    align-items: center;
+  }
+
+  .main, .products{
+    width: 1024px;
+    max-width: 1024px;  
+  }
+
+  .footer{
+    width:100% ;
   }
 
   .card-container{
